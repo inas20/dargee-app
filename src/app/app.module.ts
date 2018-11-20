@@ -11,14 +11,14 @@ import { AppComponent }  from './app.component';
 @NgModule({
   imports:      [ BrowserModule,
                   RouterModule.forRoot(
-                   {
+                   [{
                      path:'login',
                      component:LoginComponent
                    },
                    {
                     path:'home',
                     component:HomeComponent
-                  }
+                  }]
                   )],
   declarations: [ AppComponent, HeaderComponent, NavComponent, LoginComponent, HomeComponent ],
   bootstrap:    [ AppComponent]
