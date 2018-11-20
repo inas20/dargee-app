@@ -10,7 +10,7 @@ import { AppComponent }  from './app.component';
 
 @NgModule({
   imports:      [ BrowserModule,
-                  RouterModule.forRoot(
+                  RouterModule.forRoot([
                    {
                      path:'login',
                      component:LoginComponent
@@ -18,7 +18,7 @@ import { AppComponent }  from './app.component';
                    {
                     path:'home',
                     component:HomeComponent
-                  }
+                  }]
                   )],
   declarations: [ AppComponent, HeaderComponent, NavComponent, LoginComponent, HomeComponent ],
   bootstrap:    [ AppComponent]
