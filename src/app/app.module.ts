@@ -18,7 +18,6 @@ import { AppComponent }  from './app.component';
                    {
                     path:'home',
                     component:HomeComponent
-                  }]
                   )],
   declarations: [ AppComponent, HeaderComponent, NavComponent, LoginComponent, HomeComponent ],
   bootstrap:    [ AppComponent]
